@@ -1,0 +1,46 @@
+.todo-list-wrapper {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.add-btn {
+    background-color: transparent;
+    border: 0;
+}
+.add-input {
+    height: 30px;
+    width: 250px;
+}
+
+.delete {
+    margin-left: 5px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+.task-content-completed {
+    color: #B8BAC1;
+    text-decoration: line-through;
+}
+
+.active {
+    background-color: black;
+    color: white;
+  }
+
+.active:focus {
+    background-color: black;
+    color: white; 
+}
+
+.filter-btn {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.title {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}

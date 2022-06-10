@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To-do List</title>
+    <!-- Latest compiled and minified CSS Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- jQuery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script> 
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8b769a7f73.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <div class="todo-list-wrapper">
+                    <h1 class="title text-center">To-Do List</h1>
+                    <hr>
+                    <form id="task-input">
+                        <input id="new-task-content" type="text" placeholder="Add to list" required />
+                        <button type="submit" class="btn add-btn"><i class="fas fa-plus"></i></button>
+                    </form>
+                    <div id="todo-list">
+                    </div>
+                    <hr>
+                    <div class="todo-filter-wrapper">
+                        <div><span id="todo-amount">0</span> tasks left</div>
+                        <div class="todo-filter">
+                            <button class="btn filter-btn active" id="all">All</button>
+                            <button class="btn filter-btn" id="active">Active</button>
+                            <button class="btn filter-btn" id="completed">Completed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </body>
